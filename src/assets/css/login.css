@@ -1,0 +1,325 @@
+.login-component-wrapper {
+    margin-top: 2rem;
+}
+
+.login-wrapper {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.img-container {
+    height: 580px;
+    margin-right: 32px;
+    flex-basis: 380px;
+}
+
+.img-container__image {
+    width: auto;
+    height: 100%;
+}
+
+.login-container {
+    width: 375px;
+    height: 580px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 380px;
+}
+
+.login-box {
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    padding: 10px 0px;
+    width: 100%;
+    height: 380px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 50px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__chanilstagram {
+    width: 100%;
+    height: 100%;
+}
+
+.login-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form__input {
+    margin: 0px 40px 6px 40px;
+}
+
+label {
+    width: 100%
+}
+
+input {
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    padding: 9px 0px 9px 8px;
+    font-size: 11px;
+}
+
+input:focus {
+    outline-color: rgba(0, 0, 0, 0.15);
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.login-form__button {
+    margin: 8px 40px;
+    border: none;
+    background-color: rgba(0,149,246, 0.3);
+    border-radius: 4px;
+    padding: 5px 9px;
+    color: white;
+}
+
+.or-container {
+    margin: 8px 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.or-division {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.or {
+    margin: 0 18px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+.forgot-password {
+    margin-top: 11px;
+    color: black;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.sign-up-wrapper {
+    width: inherit;
+    margin-top: 10px;
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    padding: 20px 0px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sign-up > span {
+    margin-right: 5px;
+}
+
+.download-app-wrapper {
+    width: inherit;
+    padding: 10px 0px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: black;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.download-app-wrapper > span {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.download-app__img {
+    width: 9rem;
+    margin-top: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-footer-info {
+    display: flex;
+}
+
+.login-footer-info__container {
+    margin: 0px 8px 8px 8px;
+}
+
+.login-footer-info__container > a {
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+
+.footer-mark {
+    font-weight: 100;
+    font-size: 10px;
+}
+/*.login {*/
+/*    height: 100%;*/
+/*    background-color: #fafafa;*/
+/*    color: black;*/
+/*}*/
+
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: white;*/
+/*    border: 1px solid rgba(200, 200, 200, 0.5);*/
+/*    padding: 30px 0px;*/
+/*}*/
+
+/*.login-form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    padding: 0px 10px;*/
+/*}*/
+
+/*.img-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin: 1.75rem 0rem;*/
+/*}*/
+
+/*input {*/
+/*    padding: 5px 10px;*/
+/*    background-color: rgba(200, 200, 200, 0.2);*/
+/*    border: 1px solid rgba(200, 200, 200, 0.3);*/
+/*    border-radius: 3px;*/
+/*    margin: 0px 3px 10px 3px;*/
+/*    max-width: 16rem;*/
+/*}*/
+
+/*input::placeholder {*/
+/*    font-size: 0.75rem;*/
+/*    font-weight: lighter;*/
+/*}*/
+
+/*input:focus {*/
+/*    outline: 1px solid rgba(0, 0, 0, 0.3);*/
+/*}*/
+
+/*.login-button {*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    padding: 3px 0px;*/
+/*    background-color: rgba(0,149,246, 0.5);*/
+/*    margin: 6px 10px 6px 10px;*/
+
+/*    color: white;*/
+/*    font-size: 12px;*/
+/*    letter-spacing: 1px;*/
+/*}*/
+
+/*.login-button-on {*/
+/*    background-color: rgba(0,149,246);*/
+/*}*/
+
+/*.login-button-off {*/
+/*    background-color: rgba(0,149,246, 0.5);*/
+/*}*/
+
+/*.or-container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.or-division {*/
+/*    width: 78px;*/
+/*    height: 1px;*/
+/*    background-color: rgba(0, 0, 0, 0.15);*/
+/*}*/
+
+/*.or {*/
+/*    margin: 0 18px;*/
+/*    color: rgba(0, 0, 0, 0.3);*/
+/*    font-size: 12px;*/
+/*}*/
+
+/*.find-password {*/
+/*    margin-top: 12px;*/
+
+/*    font-size: 10px;*/
+/*    font-weight: lighter;*/
+/*}*/
+
+/*.signup-container{*/
+/*    margin-top: 1rem;*/
+/*    font-size: 12px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.signup-container > span {*/
+/*    margin-right: 0.2rem;*/
+/*    font-weight: 300;*/
+/*}*/
+
+/*.signup-container > a {*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.download-app-wrapper {*/
+/*    margin-top: 1.2rem;*/
+/*    padding : 0;*/
+/*    border: none;*/
+/*    background-color: #fafafa;*/
+/*    font-weight: 300;*/
+/*    font-size: 0.75rem;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.download-app {*/
+/*    width: 9rem;*/
+/*    margin-top: 1rem;*/
+/*}*/

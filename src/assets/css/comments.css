@@ -1,0 +1,134 @@
+.comments-header-wrapper {
+    width: 30rem;
+    min-height: 100vh;
+
+    /*border: 1px solid red;*/
+    background-color: black;
+    color: white;
+}
+
+.comments-header {
+    padding: 5px 12px;
+    display: flex;
+    align-content: center;
+}
+
+.comments-header__backButton {
+}
+
+.backButton {
+    text-decoration:none;
+    color: white;
+}
+
+.backButton:hover {
+    color: white;
+}
+
+.comments-header__span {
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.posting-contents {
+    padding: 5px 12px;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px;
+}
+
+.comments-wrapper {
+    padding: 3px 12px;
+    color: white;
+}
+
+.comments-contents {
+    display: flex;
+}
+
+.comments-contents__img {
+    width: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.comments-contents__img > img {
+    width: inherit;
+    border-radius: 50%;
+}
+
+.comments-contents__comment {
+    margin-left: 10px;
+}
+
+.user-comments {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.comment-userid {
+    font-weight: 700;
+}
+
+.comment-details {
+    font-size: 10px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.comment-details > span {
+    margin-right: 1rem;
+}
+
+.writing-bar-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    height: 2rem;
+    display: flex;
+    padding: 0px 12px;
+
+    background-color: grey;
+}
+
+.writing-bar__img {
+    width: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.writing-bar__img > img {
+    width: inherit;
+    border-radius: 50%;
+}
+
+.writing-bar-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.writing-bar-form__input > input {
+    width: 24rem;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.writing-bar-form__input > input:focus {
+    outline: none;
+    caret-color: white;
+}
+
+.writing-bar-form__input > input::placeholder {
+    color: white;
+}
+
+.writing-bar-form__button > button {
+    border: none;
+    background: none;
+    color: cornflowerblue;
+    font-weight: 100;
+    font-size: 14px;
+}
