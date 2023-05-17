@@ -4,9 +4,6 @@
 # Project Title
 ---
 #### Chanilstagram
-# Deployments URL
----
-
 
 # Skills
 ---
